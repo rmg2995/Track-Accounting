@@ -13,6 +13,10 @@ class App extends Component {
     return (
       <div>
         <h1>Track Accounting LLC</h1>
+        <div>
+          <p>Phone</p>
+          <h3>786-282-7941</h3>
+        </div>
         <Navbar />
         <Switch>
           <Route exact path="/" render={() => <Home />} />
